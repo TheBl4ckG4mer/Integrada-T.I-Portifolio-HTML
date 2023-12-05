@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  height: 8vh;
+  
+}
+
+div#DIV1 {
+  color: white;
+  text-align: justify;
+  padding: 30px 250px;
+  font-size: large;
+}
+
+div#DIV2 {
+  color: white;
+  text-align: justify;
+  padding: 30px 250px;
+  font-size: large;
+}
+
+div#DIV3 {
+  color: white;
+  text-align: justify;
+  padding: 30px 250px;
+  font-size: large;
+}
+
+div#DIV4 {
+  color: white;
+  text-align: justify;
+  padding: 30px 250px;
+  font-size: large;
+}
+
+div#DIV5 {
+  color: white;
+  text-align: justify;
+  padding: 30px 250px;
+  font-size: large;
+}
+
+div#DIV6 {
+  color: white;
+  text-align: justify;
+  padding: 30px 250px;
+  font-size: large;
+}
+
+div#DIV7 {
+  color: white;
+  text-align: justify;
+  padding: 30px 250px;
+  font-size: large;
+}
+
+div#RODAPE {
+  text-align: center;
+  color: white;
+}

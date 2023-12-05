@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(88, 76, 165);
+  height: 8vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 254, 253);
+}
+
+h1#INTRO {
+  margin-left: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 35px;
+}
+
+h1#AREA_CONH {
+  text-align: center;
+  color: white;
+}
+
+h1#PAG_TEC {
+  text-align: center;
+  color: white;
+}
+
+h1#CURRICULOS {
+  text-align: center;
+  color: white;
+}
+
+h2#INTROTEXT {
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  width: 900px;
+  left: 26%;
+
+}
+
+div#inicio_text {
+  position: relative;
+  width: auto;
+  height: 200px;
+  text-align: center;
+  /*margin: 25px;*/
+  color: white;
+}
+
+div#AREA_CONHECIMENTO {
+  min-height: 160px;
+}
+
+div#PAGINAS_TEC {
+  min-height: 160px;
+}
+
+div#PORT_CURRI {
+  min-height: 160px;
+}
+
+input#CH {
+  position: absolute;
+  top: 40%;
+  left: 31%;
+  display: inline-block;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#CH:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#CN {
+  position: absolute;
+  top: 40%;
+  left: 44%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#CN:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#MAT {
+  position: absolute;
+  top: 40%;
+  left: 57%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#MAT:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#LING {
+  position: absolute;
+  top: 48%;
+  left: 31%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#LING:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#TI {
+  position: absolute;
+  top: 48%;
+  left: 44%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  display: inline-block;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#TI:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#PA {
+  position: absolute;
+  top: 48%;
+  left: 57%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#PA:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#RV {
+  position: absolute;
+  top: 63%;
+  left: 31%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#RV:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#RA {
+  position: absolute;
+  top: 63%;
+  left: 44%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#RA:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#CD {
+  position: absolute;
+  top: 63%;
+  left: 57%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#CD:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#IOT {
+  position: absolute;
+  top: 71%;
+  left: 37.5%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#IOT:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#IA {
+  position: absolute;
+  top: 71%;
+  left: 50.5%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#IA:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#CURRICULO {
+  position: absolute;
+  top: 85%;
+  left: 50.5%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#CURRICULO:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+input#PORTFOLIO {
+  position: absolute;
+  top: 85%;
+  left: 37.5%;
+  padding: 15px 20px 15px 20px;
+  width: 12%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 17px;
+  border: 2px solid green;
+  background-color: #22ee44;
+  color: rgb(33, 38, 43);
+  transition: 0.4s;
+}
+
+input#PORTFOLIO:hover {
+  cursor: pointer;
+  color: rgb(82, 99, 116);
+  border: 2px solid rgb(100, 255, 69);
+  background-color: rgb(78, 255, 93);
+}
+
+div#RODAPE {
+  text-align: center;
+  color: white;
+}

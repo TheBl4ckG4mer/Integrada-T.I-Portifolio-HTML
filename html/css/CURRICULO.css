@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  height: 8vh;
+  
+}
+
+div#DIV1 {
+  color: white;
+  text-align: justify;
+  padding: 30px 250px;
+  font-size: large;
+}
+
+div#DIV2 {
+  color: white;
+  text-align: justify;
+  padding: 30px 250px;
+  font-size: large;
+}
+
+div#DIV3 {
+  color: white;
+  text-align: justify;
+  padding: 30px 250px;
+  font-size: large;
+}
+
+div#DIV4 {
+  color: white;
+  text-align: justify;
+  padding: 30px 250px;
+  font-size: large;
+}
+
+h2#HOBBIES {
+  text-align: center;
+  color: white;
+}
+
+div#LISTA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  font-size: 19px;
+  height: 270px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: justify;
+  color: white;
+}
+
+h2#TRABALHOS {
+  text-align: center;
+  color: white;
+}
+
+div#RODAPE {
+  text-align: center;
+  color: white;
+}

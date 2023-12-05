@@ -1,0 +1,95 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  height: 8vh;
+  
+}
+
+ul#INTROUL {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: center;
+}
+
+ul#INTROUL li {
+  list-style: none;
+  margin-right: 35px;
+}
+
+h1#INTRO {
+  margin-left: 20px;
+}
+
+h2#DADOS_PESSOAIS {
+  text-align: center;
+  color: white;
+  top: 50px;
+}
+
+h2#FORM_ACADEM {
+  text-align: center;
+  color: white;
+  top: 50px;
+}
+
+h2#EXP_PROFISS {
+  text-align: center;
+  color: white;
+}
+
+h2#EXP_TRAB {
+  text-align: center;
+  color: white;
+}
+
+div#DADOS_PESSOAIS {
+  width: auto;
+  font-size: 19px;
+  height: auto;
+  text-align: justify;
+  color: white;
+  left: 42%;
+}
+
+div#FORM_ACADEM {
+  width: auto;
+  font-size: 19px;
+  height: auto;
+  text-align: center;
+  color: white;
+}
+div#EXP_PROFISS {
+  width: auto;
+  font-size: 19px;
+  height: auto;
+  color: white;
+  left: 45%;
+  display: inline-block;
+}
+
+div#EXP_TRAB {
+  width: auto;
+  font-size: 19px;
+  height: auto;
+  text-align: center;
+  color: white;
+}
+
+div#RODAPE {
+  text-align: center;
+  color: white;
+}
+ul{
+  margin-top: 25px;
+}
